@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title> Ejemplo tablas 1 </title>
+		<meta name="author", content="Paula"/>
+    </head>
+
+    <body>
+        <table border="1">
+            <caption>Este es el título de la tabla</caption>
+            <thead>
+                <!--Filas que forman parte del encabezado de la tabla -->
+                <tr>
+                    <!-- tr es Table Row-->
+                     <th scope="col">Encabezado columna 1</th>
+                     <th scope="col">Encabezado de la columna 2</th>
+                     <th scope="col">Encabezado de la columna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas que formen parte del cuerpo de la tabla-->
+                <tr>
+                    <th scope="row">Esto encabeza una fila y es correcto.</th>
+                    <td>Esto es un dato</td>
+                    <td>esto es otro dato</td>
+                </tr>
+                <tr>
+                    <th scope="row">Encabezado de la fila 2</th>
+                    <td>Primer dato de la fila dos</td>
+                    <td>Segundo dato de la fila dos</td>
+                 </tr>
+            </tbody>
+            <tfoot>
+                <!-- filas que pertenecen al pie de la tabla-->
+                <tr>
+                    <th>Encabezado</th>
+                    <td>dato 2</td>
+                    <td>dato 3</td>
+                 </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

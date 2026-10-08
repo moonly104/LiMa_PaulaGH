@@ -1,0 +1,48 @@
+table {
+  border-collapse: collapse;
+  color: black
+}
+
+td, th {
+  border: 1px solid black;
+}
+
+.rd{
+  background-color: grey;
+}
+
+.hd {
+  background-color: silver;
+}
+
+.bd{
+  background-color: lightgreen;
+}
+
+.pg{
+    background-color: tomato;
+}
+
+.en {
+    background-color: mediumpurple;
+}
+
+.cn {
+    background-color: khaki;
+}
+
+.lm {
+    background-color: lightseagreen;
+}
+
+.ip {
+    background-color: pink;
+}
+
+.si {
+  background-color: sandybrown;
+}
+
+.ss {
+  background-color: yellowgreen;
+}

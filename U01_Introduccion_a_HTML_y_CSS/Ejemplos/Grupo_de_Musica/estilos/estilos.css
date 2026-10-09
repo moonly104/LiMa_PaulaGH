@@ -1,0 +1,25 @@
+html{
+    background-color: pink;
+}
+
+header{
+    background-color: aqua;
+    border: 1px solid brown;
+}
+
+header > h1 {
+    background-color: yellow;
+    /*padding-top: 30px;*/
+    /*top, right, bottom, left*/
+    /*padding: 30px 900px 150px 10 px;*/
+    padding: 30px;
+    border: 1px solid black;
+}
+
+strong{
+    background-color: lime;
+}
+
+aside{
+    background-color: rgba(0, 0, 255, 0.5);
+}

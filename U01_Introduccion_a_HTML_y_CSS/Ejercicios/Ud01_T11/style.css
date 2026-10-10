@@ -1,0 +1,16 @@
+html{
+    background-color: silver;
+    color: red;
+}
+
+hr{
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}

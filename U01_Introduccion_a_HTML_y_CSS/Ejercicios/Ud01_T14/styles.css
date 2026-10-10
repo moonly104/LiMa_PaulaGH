@@ -1,0 +1,30 @@
+html{
+    background-color: #CFC;
+    font-size: 16px;
+    color: #00F;
+}
+
+h1 {
+    color: #f00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+h2{
+    color: #a00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+}
+
+b {
+    font-size: 20px;
+}
+
+h2 + ul {
+    color: #060;
+}
+
+i {
+    color: #FFF;
+    background-color: #000;
+}

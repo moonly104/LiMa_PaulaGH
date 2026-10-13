@@ -1,0 +1,25 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, hr{
+    color: darkred;
+    font-family: Verdana, Calibri, sans-serif;
+
+}
+
+time {
+    background-color: red;
+}
+
+abbr {
+    color: red;
+    font-style: oblique;
+}
+
+blockquote{
+    background-color: silver;
+    border-left: 3px solid darkred;
+    padding: 1px;
+}

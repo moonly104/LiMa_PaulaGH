@@ -1,15 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    color: black;
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-h1,
-h3 {
-    color: #803333;
-    border-bottom: 2px solid #803333;
+h1, h2 {
+    color: darkred;
+    border-bottom: 2px solid darkred;
     padding-bottom: 3px;
     text-transform: uppercase;
+    font-family: Verdana, Calibri, sans-serif;
 }
 
 h1 {
@@ -18,14 +17,19 @@ h1 {
     margin-bottom: 14px;
 }
 
-h3 {
+h2 {
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 14px;
 }
 
-hr {
-    display: none;
+time {
+    background-color: red;
+}
+
+abbr {
+    color: red;
+    font-style: oblique;
 }
 
 p {
@@ -34,20 +38,8 @@ p {
 }
 
 blockquote {
-    background-color: #dfdfdf;
-    border-left: 3px solid #803333;
-    margin-left: 28px;
-    margin-right: 28px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-color: silver;
+    border-left: 3px solid darkred;
+    margin: 28px 10px 28px 10px;
     padding: 8px;
-}
-
-abbr {
-    color: red;
-}
-
-.fecha {
-    background-color: red;
-    color: white;
 }

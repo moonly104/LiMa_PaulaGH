@@ -1,0 +1,37 @@
+body {
+	font-size: 16px;
+	background-color: palegreen;	
+}
+
+p::first-letter{
+	font-size: 32px;
+}
+
+h1::first-letter{
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.no {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:active {
+	color: yellow;
+}
+
+.si:hover {
+	background-color: pink;
+}
+
+li:hover {
+	background-color: grey;
+}

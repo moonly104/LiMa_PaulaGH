@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>formulario HTML</title>
+        <meta name="author" content="Paula">
+        <meta name="description" content="Formulario HTML para rexistrar unha persoa nunha actividade formativa">
+        <meta name="keywords" content="HTML, CSS, formulario, vermello, rojo">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <legend> Datos: </legend>
+                <label for="#nombre"> Nombre: </label> <br>
+                <input type="text" name="nome" id="nombre" min="3" max="30" required pattern="[A-ZÁÉÍÓÚ]{1}[a-zA-ZáéíóúñÁÉÍÓÚÑ\s-]{2,29}"> <br>
+
+                <label for="#apelidos"> Apellidos: </label> <br>
+                <input type="text" name="apellidos" id="apelidos" min="3" max="50" required pattern="[A-ZÁÉÍÓÚÑ]{1}[a-zA-ZáéíóúñÁÉÍÓÚÑ\s-]{2,49}"> <br>
+
+                <label for="#correo"> Mail: </label> <br>
+                <input type="email" name="mail" id="correo" pattern="\@" required> <br>
+
+                <label for="#idade"> Edad: </label> <br>
+                <input type="number" name="edad" id="idade" min="16" max="99" required> <br>
+
+                <label for="#telefono"> Teléfono: </label> <br>
+                <input type="text" name="tlf" id="telefono" pattern="[0-9]{9}"> <br>
+
+                <label for="#cp"> Código postal: </label> <br>
+                <input type="text" name="codigo postal" id="cp" required pattern="[0-9]{5}"> <br>
+
+                <label for="#irmans"> Número de hermanos: </label> <br>
+                <input type="number" name="hermanos" id="irmans" min="0" max="15"><br>
+
+                <label for="#web"> Página web personal: </label> <br>
+                <input type="url" name="web" id="web" pattern="https?://.+"> <br>
+            </fieldset>
+        </form>
+
+        <form action="#" method="get">
+            <fieldset>
+                <input type="submit" value="enviar">
+                <input type="reset" value="restablecer">
+            </fieldset>
+        </form>
+    </body>
+</html>

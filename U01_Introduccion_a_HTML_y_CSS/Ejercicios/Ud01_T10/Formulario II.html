@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title> Formulario en HTML 5 </title>
+        <meta name = "author" content = "Paula">
+        <meta name = "keywords" content = "HTML, formulario, rexistro, sexo, correo, páxina web">
+        <meta name = "description" content = "Formulario con correo electrónico, nome e máis opcións">
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend> Datos </legend>
+                <label for="nombre"> Nombre: </label> <br>
+                <input type="text" id="nombre" name="nombre" required autofocus> <br>
+
+                <label for="email"> Correo: </label> <br>
+                <input type="email" name="correo" id="correo" placeholder="abc@ejemplo.com"> <br>
+
+                <label for="web"> URL: </label> <br>
+                <input type="url" name="web" id="web" placeholder="Escribe a URL da túa web persoal"> <br>
+
+                <label for="data"> Fecha: </label> <br>
+                <input type="date" name="data" id="data"> <br>
+
+                <label for="hora"> Hora: </label> <br>
+                <input type="time" name="hora" id="hora"> <br>
+
+                <label for="idade"> Edad: </label> <br>
+                <input type="number" name="idade" id="idade" min="18" max="65"> <br>
+
+                <label for="tlf"> Teléfono: </label> <br>
+                <input type="tel" name="tlf" id="tlf"> <br>
+
+                <label for="cor"> Color favorito: </label> <br>
+                <input type="color" name="cor" id="cor"> <br>
+            </fieldset>
+        </form>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend> Enviar </legend>
+                <label for="enviar"> Una vez acabado el formulario, clique el botón: </label> <br>
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>

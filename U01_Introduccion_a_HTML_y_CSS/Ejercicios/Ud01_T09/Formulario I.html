@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title> Formulario de rexistro </title>
+        <meta name = "author" content = "Paula">
+        <meta name = "keywords" content = "HTML, formulario, rexistro, sexo, correo, páxina web">
+        <meta name = "description" content = "Formulario con correo electrónico, nome e máis opcións">
+    </head>
+    
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend> Nombre y apellidos </legend>
+                <label for="nombre"> Nombre: </label> <br>
+                <textarea name="nombre" id="nombre" rows="3" cols="50" placeholder="Escribe aquí" value="50"></textarea> <br>
+            
+                <label for="apellido1"> Primer apellido: </label> <br>
+                <textarea name="apellido1" id="apellido1" rows="3" cols="50" placeholder="Escribe aquí" value="50"></textarea> <br>
+
+                <label for="apellido2"> Segundo apellido: </label> <br>
+                <textarea name="apellido2" id="apellido2" rows="3" cols="50" placeholder="Escribe aquí" value="50"></textarea> <br>
+            </fieldset>
+        </form>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend> Sexo </legend>
+                <input type="radio" name="sexo" value="hombre"> 
+                <label for="hombre"> hombre </label> <br>
+                <input type="radio" name="sexo" value="mujer"> 
+                <label for="mujer"> mujer </label> <br>
+            </fieldset>   
+        </form>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend> Correo </legend>
+                <label for="correo"> Correo electrónico: </label>
+                <input type="email" name="correo" id="correo" rows="3" cols="50" placeholder="abc@ejemplo.com">
+            </fieldset>
+        </form>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend> Población </legend>   
+                <label for="población"> Seleccione una: </label><br>
+                <select name="" id="" multiple="multiple" size="5">
+                    <optgroup label="Población">
+                        <option value="1"> Ourense </option>
+                        <option value="2"> A Coruña </option>
+                        <option value="3"> Lugo </option>
+                        <option value="4"> Pontevedra </option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </form>
+
+        <form action="" method="post">
+            <legend> Descripción </legend>
+            <input type="text" name="descripción" rows="5" cols="50" placeholder="Escribe aquí"> 
+        </form>
+
+        <form action="" method="post">
+            <fieldset>
+                <legend> Verificaciones </legend>
+                <input type="checkbox" name="verificaciones[]" value="novidades e ofertas" checked="checked">
+                <label for="novidades e ofertas"> Desexo recibir información sobre novidades e ofertas </label> <br>
+                <input type="checkbox" name="verificaciones[]" value="condicións e protección de datos">
+                <label for="condicións e protección de datos"> Declaro aceptar as condicións xerais do programa e a normativa sobre protección de datos </label>
+            </fieldset>
+        </form>
+
+        <form action="" method="get">
+            <fieldset>
+                <legend> Enviar respuestas </legend>
+                <label for="enviar"> Una vez completado el formulario, clique el botón enviar: </label> <br>
+                <input type="submit" name="enviar" id="enviar">
+            </fieldset>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+/*body[lang="en"]{
+    font-style: italic;
+}*/
+
+/*body[lang]:not([lang="es"]){
+    font-style: italic;
+}*/
+
+body[lang]:not(.aaa){
+    font-style: italic;
+}
+

@@ -3,24 +3,31 @@ body {
 	background-color: palegreen;	
 }
 
+ol > li {
+	list-style-type: square;
+}
+
+ol > ol > ol > li {
+	list-style-type: none;
+}
+
 p::first-letter{
-	font-size: 32px;
+	font-size: 2em;
 }
 
 h1::first-letter{
-	font-size: 40px;
+	font-size: 2em;
 }
 
 h1 {
 	font-size: 20px;
-	border: 1px solid black;
 }
 
-.no {
+ol > li > {
 	display: none;
 }
 
-a {
+a:link {
 	text-decoration: none;
 }
 
@@ -28,10 +35,10 @@ a:active {
 	color: yellow;
 }
 
-.si:hover {
+ol li a:hover {
 	background-color: pink;
 }
 
-li:hover {
+ol ol li a:hover {
 	background-color: grey;
 }

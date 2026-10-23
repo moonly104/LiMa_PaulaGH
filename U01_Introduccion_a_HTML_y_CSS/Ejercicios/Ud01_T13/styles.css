@@ -2,20 +2,20 @@ fieldset{
     border: none;
 }
 
-form input:valid:required{
+input:valid:required{
     border: 2px solid green;
     background-color: green;
 }
 
-form input:invalid:required{
+input:invalid:required{
     border: 2px solid red;
     background-color: red;
 }
 
-form input:valid{
+input:valid{
     border: 2px solid green;
 }
 
-form input:invalid{
+input:invalid{
     border: 2px solid red;
 }

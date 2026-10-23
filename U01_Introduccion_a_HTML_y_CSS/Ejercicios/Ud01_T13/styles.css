@@ -1,13 +1,13 @@
-form{
+fieldset{
     border: none;
 }
 
-form input:required:valid{
+form input:valid:required{
     border: 2px solid green;
     background-color: green;
 }
 
-form input:required:focus:invalid{
+form input:invalid:required{
     border: 2px solid red;
     background-color: red;
 }

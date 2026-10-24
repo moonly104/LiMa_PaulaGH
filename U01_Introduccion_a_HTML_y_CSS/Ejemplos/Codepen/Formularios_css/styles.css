@@ -1,0 +1,61 @@
+body:hover{
+    background-color: yellow;
+}
+
+p:hover{
+    background-color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+    color: green;
+}
+
+a:active{
+    color: lightblue;
+}
+
+a:visited {
+    color: grey;
+}
+
+input[type="text"]{
+    font-style: italic;
+}
+
+input[pattern]{
+    font-family: serif;
+}
+
+input[type="number"]{
+    font-size: 3em;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+p::first-letter{
+    font-size: 3em;
+}
+
+p::first-line{
+    padding-left: 5em;
+}
+
+:root{
+    --color1: red;
+    --color2: yellow;
+}
+
+h1{
+    /*color: red;*/
+    color: var(--color1);
+    font-style: italic
+}
+
+h2{
+    /*color: yellow;*/
+    color: var(--color2);
+    font-family: monospace;
+}

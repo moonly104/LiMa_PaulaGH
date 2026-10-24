@@ -1,21 +1,21 @@
-form{
+fieldset{
     border: none;
 }
 
-form input:required:valid{
-    border: 2px solid green;
+input:valid:required{
+    border: 2px solid darkgreen;
     background-color: green;
 }
 
-form input:required:focus:invalid{
-    border: 2px solid red;
+input:invalid:required{
+    border: 2px solid darkred;
     background-color: red;
 }
 
-form input:valid{
+input:valid{
     border: 2px solid green;
 }
 
-form input:invalid{
+input:invalid{
     border: 2px solid red;
 }

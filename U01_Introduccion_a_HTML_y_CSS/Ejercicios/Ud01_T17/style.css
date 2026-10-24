@@ -1,0 +1,122 @@
+:root {
+  --marfil: #f7f0df;
+  --papel: #fffaf0;
+  --beixe: #eee0c5;
+  --beixe-escuro: #dfc79d;
+  --ocre: #a77736;
+  --ocre-escuro: #68451f;
+  --tinta: #352819;
+  --tinta-suave: #6e5a42;
+  --borde: #b89a6b;
+  --hover: #f0d49a;
+}
+
+html{
+    background-color: var(--marfil);
+    color: var(--ocre-escuro);
+    font-size: 16px;
+    font-family: Georgia, sans-serif;
+}
+
+table {
+    border: none;
+}
+
+td {
+    border-style: none dotted dashed none;
+    border-color: var(--borde);
+}
+
+td:first-child {
+  border-left: none;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+p {
+    text-align: center;
+}
+
+/* Clases e id */
+
+.infin {
+    background-color: var(--beixe-escuro);
+    color: var(--tinta);
+    
+}
+
+.circulo {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    outline: 2px solid var(--ocre-escuro);
+    box-sizing: border-box;
+    outline-offset: 2px;
+}
+
+.num {
+    color: var(--tinta);
+    text-align: center;
+}
+
+#reinado {
+    font-family: "Homemade Apple", cursive;
+    font-size: 0.75em;
+}
+
+/* thead */
+
+caption {
+    padding: 0.25em;
+    font-size: 2em;
+    font-family: "Homemade Apple", cursive;
+    text-shadow: 2px 8px 15px var(--tinta);
+}
+
+thead tr th {
+    padding: 0.5em;
+    background-color: var(--ocre-escuro);
+    color:var(--marfil);
+    border-style: none none dashed none;
+    border-color: var(--borde);
+}
+
+/* tbody */
+
+tbody tr:nth-child(even):hover td{
+    background-color: var(--hover);
+}
+
+tbody tr:nth-child(odd):hover td{
+    background-color: var(--hover);
+}
+
+tbody tr:nth-child(even) td{
+    padding: 1em 0.5em 1em 0.5em;
+    background-color: var(--beixe);
+}
+
+tbody tr:nth-child(odd) td {
+    padding: 1em 0.5em 1em 0.5em;
+    background-color: var(--papel);
+}
+
+th[colspan="2"]{
+    background-color: var(--ocre);
+}
+
+/* tfoot */
+
+tfoot tr td {
+    background-color: var(--beixe-escuro);
+    padding: 0.5em;
+}
+
+tfoot th {
+    background-color: var(--ocre);
+    color: var(--papel);
+    padding: 0.5em;
+}

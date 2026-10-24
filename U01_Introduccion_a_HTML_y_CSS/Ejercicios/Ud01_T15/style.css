@@ -1,0 +1,33 @@
+table, td{
+    border: 1px solid black;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: rgb(200, 200, 200);
+}
+
+tr:nth-child(7n+1) td {
+    background-color:rgb(212, 70, 70);
+}
+
+tr:nth-child(7n+2) td {
+    background-color: coral;
+}
+
+tr:nth-child(7n+3) td {
+    background-color:gold;
+}
+
+tr:nth-child(7n + 4) td {
+    background-color: limegreen;
+}
+
+tr:nth-child(7n + 5) td {
+    background-color: mediumturquoise;
+}
+
+tr:nth-child(7n + 6) td {
+    background-color: cornflowerblue;
+}
+
+tr:nth-child(7n + 7) td {
+    background-color: mediumpurple;
+}

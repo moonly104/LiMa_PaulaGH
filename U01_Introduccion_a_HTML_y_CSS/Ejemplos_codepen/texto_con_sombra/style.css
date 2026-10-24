@@ -1,0 +1,19 @@
+h1{
+  /*para la sombra en texto:*/
+  /*text-shadow: 2px 15px 30px #ff0000;*/
+  text-shadow: 1px 1px 0px #000000,
+                -1px -1px 0px #000000,
+                1px 0px 0px black,
+                0px 1px 0px black;
+  /*Las sombras se añaden en las 4 coordenadas*/
+
+  /*El tamaño de la fuente se mide en em (tomando como referencia el tamaño original de la fuente, según lo que mida la M, se multiplica por el tamaño que pongas):*/
+  font-size: 8em;
+
+  /*@font-face es para decirle al navegador de donde tiene que instalar la fuente (ej para fuentes raras: google fonts)*/
+
+  background-color: pink;
+  border: 1px solid black;
+  padding: 0.5px;
+  
+}

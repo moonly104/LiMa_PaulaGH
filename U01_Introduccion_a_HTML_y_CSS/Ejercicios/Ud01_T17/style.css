@@ -35,8 +35,15 @@ td:last-child {
   border-right: none;
 }
 
-p {
+caption, h1 {
     text-align: center;
+}
+
+h1 {
+    padding: 0.25em;
+    font-size: 2em;
+    font-family: "Homemade Apple", cursive;
+    text-shadow: 2px 8px 15px var(--tinta);
 }
 
 /* Clases e id */
@@ -66,12 +73,6 @@ p {
 }
 
 /* thead */
-caption {
-    padding: 0.25em;
-    font-size: 2em;
-    font-family: "Homemade Apple", cursive;
-    text-shadow: 2px 8px 15px var(--tinta);
-}
 
 thead tr th {
     padding: 0.5em;

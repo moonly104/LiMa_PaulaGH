@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title> Formulario de inscripción al taller tecnológico </title>
+        <meta name = "author" content = "Paula">
+        <meta name = "keywords" content = "HTML, CSS, taboas, taller">
+        <meta name = "description" content = "Formulario de inscripción para un taller tecnolóxico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> Inscripción al taller tecnológico </h1>
+        <form action="#" method="post" id="registro">
+            <fieldset>
+                <legend> Datos personales </legend>
+
+                <label for="#nombre"> Nombre: </label> <br>
+                <input type="text" name="nome" id="nombre" minlength="3" maxlength="40" required> <br>
+
+                <label for="#apelidos"> Apellidos: </label> <br>
+                <input type="text" name="apellidos" id="apelidos" minlength="3" maxlength="60" required> <br>
+
+                <label for="#contraseña"> Contraseña: </label> <br>
+                <input type="password" name="contrasinal" id="Contraseña" minlength="8" maxlength="20" required pattern="[a-zA-ZáéíóúñÁÉÍÓÚÑ]+[0-9]+" placeholder="8-20 caracteres"> <br>
+                
+                <label for="#correo"> Correo: </label> <br>
+                <input type="email" name="mail" id="correo" required pattern="[a-z\.]+\@[a-z\.]+" placeholder="123@ej.com"> <br>
+                
+                <label for="#telefono"> Teléfono: </label> <br>
+                <input type="tel" name="tlf" id="telefono" pattern="[0-9]{9}"> <br>
+                
+                <label for="#fecha-nacimiento"> Fecha de nacimiento: </label> <br>
+                <input type="date" name="data-nacemento" id="fecha-nacimiento" required min="1950-01-01" max="2010-12-31"> <br>
+                
+                <label for="#idade"> Edad: </label> <br>
+                <input type="number" name="edad" id="idade" required min="14" max="100"> <br>
+                
+                <label for="#taller"> Busca aquí un taller: </label> <br>
+                <input type="search" name="taller" id="taller" placeholder="Ej.: Programación">
+            </fieldset>
+
+            <fieldset>
+                <legend> Inscripción </legend>
+                
+                <label for="#fecha-inscripcion"> Fecha de inscrcipción: </label> <br>
+                <input type="datetime-local" name="data-inscripcion" id="fecha-inscripcion" min="2026-01-01 00:00" max="2027-12-31 23:59" required> <br>
+            
+                <label for="#mes-fav"> Mes favorito: </label> <br>
+                <input type="month" name="mesfav" id="mes-fav" min="2027-01" max="2027-12"> <br>
+
+                <label for="#semana-fav"> Semana favorita: </label> <br>
+                <input type="week" name="semanafav" id="semana-fav" min="2027-W01" max="2027-W52"> <br>
+
+                <label for="#hora-fav"> Hora preferida: </label> <br>
+                <input type="time" name="horafav" id="hora-fav" required min="09:00" max="20:00"> <br>
+                
+                <label for="#modalidad"> Modalidad: </label> <br>
+                
+                <input type="radio" name="modalidad" id="online" value="online" required>
+                <label for="online"> Online </label>
+                
+                <input type="radio" name="modalidad" id="presencial" value="presencial" required>
+                <label for="presencial"> Presencial </label> <br>
+
+                <label for="#talleres-interes"> Talleres de interés: </label> <br>
+                
+                <input type="checkbox" name="talleres-interes[]" id="programacion">
+                <label for="programacion"> Programación </label>
+
+                <input type="checkbox" name="talleres-interes[]" id="redes">
+                <label for="redes"> Redes </label>
+
+                <input type="checkbox" name="talleres-interes[]" id="diseno-web">
+                <label for="diseno-web"> Diseño web </label> <br>
+
+                <label for="#nsesiones"> Número de sesiones: </label> <br>
+                <input type="range" min="1" max="10" step="1"> <br>
+                
+                <label for="#doc"> Documento identificativo: </label> <br>
+                <input type="file" id="doc" value="docident" name="doc-ident"> <br>
+            
+            </fieldset>
+
+            <fieldset>
+                <legend> Información adicional </legend>
+
+                <label for="#web"> Páxina web: </label> <br>
+                <input type="url" name="paxina" id="web" pattern="http(s)?://.+" placeholder="https://ejemplo.com"> <br>
+
+                <label for="codigo"> Código de invitación: </label> <br>
+                <input type="text" name="code" id="codigo" min="4" max="8" placeholder="Ej.: 1234ABCD"> <br>
+            
+                <label for="#colorfav"> Color preferido: </label> <br>
+                <input type="color" name="color-fav" id="colorfav"> <br>
+            
+                <label for="#info"> Información adicional: </label> <br>
+                <textarea name="info-adicional" id="info" cols="30" rows="3" maxlength="300" placeholder="Escribe aquí tus comentarios"></textarea> <br>
+            </fieldset>
+
+            <fieldset>
+                <input type="hidden" name="codigo-campana" value="campana-random">
+
+                <button type="submit"> Enviar formulario </button>
+                <button type="reset"> Reiniciar </button>
+                <button type="button"> Consultar disponibilidad </button>
+            </fieldset>
+        </form>
+    </body>
+</html>

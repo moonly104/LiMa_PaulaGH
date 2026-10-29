@@ -52,14 +52,8 @@ h1 {
     color: var(--tinta);
 }
 
-.circulo {
-    width: 60px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
-    outline: 2px solid var(--ocre-escuro);
-    box-sizing: border-box;
-    outline-offset: 2px;
+.foto-monarca {
+    text-align: center;
 }
 
 .num {
@@ -87,6 +81,7 @@ tbody tr:nth-child(even):hover td{
     background-color: var(--hover);
 }
 
+
 tbody tr:nth-child(odd):hover td{
     background-color: var(--hover);
 }
@@ -103,6 +98,13 @@ tbody tr:nth-child(odd) td {
 
 th[colspan="2"]{
     background-color: var(--ocre);
+}
+
+img{
+    width: 80px;
+    border-radius: 100%;
+    padding: 3px;
+    border: 3px solid var(--borde);
 }
 
 /* tfoot */

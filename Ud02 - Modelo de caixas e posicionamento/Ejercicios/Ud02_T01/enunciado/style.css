@@ -1,0 +1,79 @@
+:root {
+    --verde-claro: rgb(146, 239, 208);
+    --verde: rgb(79, 231, 160);
+    --verde-oscuro: rgb(22, 58, 46);
+    --amarillo-claro: khaki;
+    --oro: rgb(205, 174, 0);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+article {
+    box-sizing: border-box;
+    width: 250px;
+    height: 410px;
+    padding: 10px;
+    border-radius: 0 5px 10px 15px;
+    box-shadow: 5px 15px 20px var(--verde-oscuro);
+    
+    position: absolute;
+    top: calc(50% - calc(410px/2));
+    left: calc(50% - calc(250px/2));
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.imagen {
+    display: block;
+    text-align: center auto;
+}
+
+.descripcion h1 {
+    display: inline auto;
+    text-align: center auto;
+    font-size: 1.5rem;
+    color: var(--verde-oscuro);
+}
+
+.descripcion a {
+    display: inline-block auto;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+.precio {
+    display: inline;
+    background-color: var(--verde-claro);
+    color: var(--verde-oscuro);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.comprar{
+    display: block;
+    text-align: center;
+    background-color: var(--verde);
+    color: var(--verde-oscuro);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.valoracion{
+    display: inline;
+    background-color: var(--amarillo-claro);
+    color: var(--oro);
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.descripcion p{
+    display: block;
+    font-size: 0.90rem;
+}
